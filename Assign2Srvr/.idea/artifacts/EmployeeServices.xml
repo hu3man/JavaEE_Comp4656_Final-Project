@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="EmployeeServices">
+    <output-path>$PROJECT_DIR$/classes/artifacts/EmployeeServices</output-path>
+    <root id="archive" name="EmployeeServices.jar">
+      <element id="directory" name="com">
+        <element id="directory" name="houstonkrohman">
+          <element id="directory" name="c4613">
+            <element id="directory" name="jpa">
+              <element id="directory" name="service">
+                <element id="file-copy" path="$PROJECT_DIR$/src/main/java/com/houstonkrohman/c4613/jpa/service/EmployeeServices.java" />
+              </element>
+              <element id="directory" name="data">
+                <element id="file-copy" path="$PROJECT_DIR$/src/main/java/com/houstonkrohman/c4613/jpa/data/EmployeeRepo.java" />
+              </element>
+            </element>
+          </element>
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

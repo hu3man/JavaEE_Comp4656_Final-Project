@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="assign1_jpa_jta:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="A00791707.war">
+      <element id="artifact" artifact-name="assign1_jpa_jta:war exploded" />
+    </root>
+  </artifact>
+</component>

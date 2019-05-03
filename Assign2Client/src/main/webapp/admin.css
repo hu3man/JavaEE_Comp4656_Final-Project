@@ -1,0 +1,415 @@
+html, body, .mdi div, .mdi span, .mdi applet, .mdi object, .mdi iframe,
+.mdi h1, .mdi h2, .mdi h3, .mdi h4, .mdi h5, .mdi h6, .mdi p, .mdi blockquote, .mdi pre,
+.mdi a, .mdi abbr, .mdi acronym, .mdi address, .mdi big, .mdi cite, .mdi code,
+.mdi del, .mdi dfn, .mdi em, .mdi font, .mdi img, .mdi ins, .mdi kbd, .mdi q, .mdi s, .mdi samp,
+.mdi small, .mdi strike, .mdi strong, .mdi sub, .mdi sup, .mdi tt, .mdi var,
+.mdi dl, .mdi dt, .mdi dd, .mdi ol, .mdi ul, .mdi li,
+.mdi fieldset, .mdi form, .mdi label, .mdi legend,
+.mdi table, .mdi caption, .mdi tbody, .mdi tfoot, .mdi thead, .mdi tr, .mdi th, .mdi td{
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+    border-style: none;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+body .mdi,
+.mdi input, 
+.mdi select, 
+.mdi textarea,
+.mdi button{
+    font-size: 12px;
+    line-height: 1.2;
+}
+.mdi blockquote:before, .mdi blockquote:after,
+.mdi q:before, .mdi q:after {
+    content: "";
+}
+.mdi blockquote, q {
+    quotes: "" "";
+}
+.mdi a:hover{
+    text-decoration: none;
+}
+.mdi a img{
+    border: none;
+}
+.mdi img{
+    display: block; 
+    clear: both;
+}
+.mdi p{
+    margin-bottom: 1em;
+}
+.mdi h1, .mdi h2, .mdi h3, .mdi h4, .mdi h5, .mdi h6{
+    margin: 0 0 10px 0;
+    font-weight: bold;
+}
+.mdi dl{
+    margin: 0 0 20px 0;
+    padding: 0;
+    list-style-type: none;
+}
+.mdi dt{
+    margin: 0 0 5px 0;
+}
+.mdi dd{
+    margin: 0 0 8px 20px;
+}
+.mdi table {
+    display: table;
+    clear: both;
+    width : 100%; 
+    border-width: 0 0 1px 1px;
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+.mdi table caption {
+    display: none;
+}
+.mdi table, .mdi td, .mdi th {
+    border-style: solid;
+    vertical-align: top;
+}
+.mdi td,.mdi th {
+    margin: 0;
+    padding: 4px 8px;
+    border-width: 1px 1px 0 0;
+}
+.mdi thead th{
+    font-weight: bold;
+}
+.mdi tbody th, 
+.mdi tfoot th{
+    text-align: left;
+    font-weight: bold;
+}
+
+.mdi div.clear {
+    clear:both;
+    height:1px;
+    overflow:hidden;
+    font-size:1px;
+}
+/*
+header
+*/
+
+.mdi .header {
+    background-color: #EEEEEE;
+    border:1px solid #CCCCCC;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px;
+    padding:8px;
+    margin:8px 8px 4px 8px;
+}
+.mdi .header *{
+    display:inline;
+}
+.mdi .header h1{
+    font-size: 14px;
+    color:#333333;  
+    padding-right: 20px;
+}
+.mdi .header ul{
+    border-left: 1px dotted #CCCCCC;
+    padding: 0 0 0 8px;
+}
+
+.mdi .header ul a {
+    color: #666666;
+}
+
+/*
+Columns
+*/
+.mdi .columns {
+    padding-right: 400px;
+    min-width: 400px;
+    position:relative;
+}
+.mdi .column {
+    position: relative;
+    clear:none !important;
+}
+.mdi .leftcol {
+    width: 100%;
+    float:left;
+}
+.mdi .rightcol {
+    float:left;
+    width: 400px;
+    margin-right:-100%;
+    overflow:hidden;
+}
+/*
+Segments
+*/
+.mdi .segment {
+    margin:4px;
+    border:1px solid #CCCCCC;
+}
+.leftcol .segment{
+    margin-left:8px;
+}
+.rightcol .segment{
+    margin-right:8px;
+}
+
+/*
+    Segment Head
+*/
+.segment .head {
+    margin:0 0 8px 0;
+    padding:8px;
+    background-color: #EEEEEE;
+    color:#666;
+    position:relative;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.segment .head h2 {
+    font-size: 14px;
+    margin:0;
+    padding:0;
+}
+.segment .head a{
+    color: #476788;
+    text-decoration: underline;
+    position:absolute;
+    top:4px;
+    right:4px;
+    padding:3px 4px 4px;
+    display:block;
+    cursor: pointer;
+}
+
+.segment .head a:hover{
+    text-decoration:none;
+}
+
+/*
+Definition Lists
+*/
+.segment dl{
+    margin: 0 0 0 8px;
+}
+
+.segment dl dd, 
+.segment dl dt{
+    display: inline;
+    margin:0;
+    padding: 0 4px 0 0;
+    font-size:inherit;
+}
+.segment dl dt{
+    font-weight:bold;
+}
+.segment h2 {
+    margin: 4px 0 8px 0;
+    padding: 6px 4px;
+    background-color: #EEEEEE;
+    color:#666;
+    font-size:12px;
+}
+/*
+    Crawler Reports
+*/
+
+.crawler .report {
+    margin-top:8px;
+    border-top: 1px solid #EEEEEE;
+}
+
+.crawler .report .group {
+    width:33%;
+    margin:0;
+    padding:0;
+    display:inline;
+    float:left;
+    font-size: 11px;
+}
+.crawler .report .group dl dt{
+    font-weight:normal;
+    padding:0;
+}
+/*
+    Performance Report
+*/
+.collection .performance {
+    padding: 0 8px;
+}
+.collection .performance h2 {
+    margin: 8px -8px;
+}
+.segment table{
+    margin: 0 0 8px 0;
+    border-bottom:1px solid #CCCCCC;
+    border-left:1px solid #CCCCCC;
+    position:relative;  
+}
+.segment table td, 
+.segment table th {
+    border-top:1px solid #CCCCCC;
+    border-right:1px solid #CCCCCC;   
+}
+
+.segment table tfoot *,
+.segment table thead * {
+    background-color: #EEEEEE;
+    text-align:left;
+    color: #666666;
+}
+.segment table .check {
+    width:20px;
+    text-align:center;
+    vertical-align: top;
+}
+
+/*Form fields*/
+.segment .field:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.segment .field {
+    display: inline-block;
+    float:left;
+    padding-bottom:4px;
+}
+.segment .field label{
+    width: 60px;
+    padding-left: 4px;
+    float:left;
+}
+.segment .field .input {
+    float:left;
+    width: 314px;
+    padding-right:4px;
+}
+.segment .field .input input,
+.segment .field .input select,
+.segment .field .input textarea{
+    width:99%;
+}
+.segment .type,
+.segment .word {
+width: 193px;
+}
+.segment .submit{
+    clear:both;
+    text-align: right;
+    padding: 4px
+}
+
+.segment .type .input,
+.segment .word .input {
+    width: 125px;
+}
+
+.segment form.multi{
+    margin: 8px -1px 0 0;
+}
+
+/* Overlay */
+.modalOverlay {
+    background-color:#000; 
+    cursor:wait;
+}
+#errorModalOverlay {
+    background-color:#500;
+}
+
+
+/* Container */
+.modalContainer {
+    height:300px; 
+    width:400px; 
+    left:50%; 
+    top:15%; 
+    margin-left:-200px; 
+    background-color:#fff; 
+    border:3px solid #ccc;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+}
+.modalContainer a.modalCloseImg {
+    background:url(/teamsiteSearchAdmin/resources/x.png) no-repeat; 
+    width:25px; 
+    height:29px; 
+    display:inline; 
+    z-index:3200; 
+    position:absolute; 
+    top:-15px; 
+    right:-18px; 
+    cursor:pointer;
+}
+
+#reportModalContainer{
+    width: 600px;
+    margin-left: -300px;
+}
+
+
+#errorModalContainer{
+    border-color:#C00;
+    height: 100px;
+}
+
+.modalContainer .popup {
+}
+
+.modalContainer .popup h3 {
+    font-size: 14px;
+    line-height: 16px;
+    margin: 8px;
+    text-align:center;
+}
+
+.modalContainer .alert .content,
+.modalContainer .popup .content{
+    overflow:auto;
+    padding:0px 4px 4px;
+    font-size:12px;
+    height:260px;
+}
+
+modalContainer .popup .content table {
+    margin: 0 8px;
+}
+
+.modalContainer .alert .content table tr,
+.modalContainer .popup .content table tr,
+.modalContainer .alert .content table td,
+.modalContainer .popup .content table td,
+.modalContainer .alert .content table th,
+.modalContainer .popup .content table th {
+    font-size: 12px;
+    padding: 4px;
+    text-align: center;
+}
+.modalContainer .popup .content .note {
+    padding: 0px 16px 0px
+}
+
+/*Error Handling*/
+.ERROR .mdi { 
+    padding:8px;
+    margin: 8px;
+    border: 4px solid #900;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    
+}
+.ERROR .mdi h1 {
+    color: #900;
+    font-size: 1.5em;
+}

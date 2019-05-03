@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="EmployeeEJB">
+    <output-path>$PROJECT_DIR$/classes/artifacts/EmployeeEJB</output-path>
+    <root id="archive" name="EmployeeEJB.jar">
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/java/com/houstonkrohman/c4613/jpa/service/EmployeeServices.java" />
+    </root>
+  </artifact>
+</component>
